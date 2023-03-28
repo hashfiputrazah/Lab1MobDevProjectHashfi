@@ -15,6 +15,9 @@ class MainActivity3 : AppCompatActivity() {
 
         supportActionBar?.hide()
 
+        val name = intent.getStringExtra(NAME)
+        binding.textView3.text = getString(R.string.great_text, name)
+
         binding.button3.setOnClickListener {
             val intent = Intent(this@MainActivity3, MainActivity4::class.java)
             startActivity(intent)
@@ -29,5 +32,9 @@ class MainActivity3 : AppCompatActivity() {
             val intent = Intent(this@MainActivity3, MainActivity6::class.java)
             startActivity(intent)
         }
+    }
+
+    companion object {
+        const val NAME = "name"
     }
 }

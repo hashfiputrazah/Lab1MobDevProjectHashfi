@@ -41,7 +41,7 @@
             android:height="34sp"
             android:background="#275168"
             android:fontFamily="@font/roboto_medium"
-            android:text="Great, %1$s! What we are going to do?"
+            android:text="@string/great_text"
             android:textAlignment="center"
             android:textColor="#FFFEFE"
             android:textColorHint="#FDFCFC"

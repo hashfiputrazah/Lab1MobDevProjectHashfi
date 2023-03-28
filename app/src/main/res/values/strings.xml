@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Lab 1 mobdev project Hashfi</string>
+
+    <string name="great_text">Great, %1$s! What we are going to do?</string>
 </resources>
