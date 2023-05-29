@@ -7,7 +7,7 @@ import com.tsu.lab1mobdevprojecthashfi.databinding.ActivityMain4Binding
 import com.tsu.lab1mobdevprojecthashfi.databinding.ActivityMain5Binding
 
 class MainActivity5 : AppCompatActivity() {
-    private lateinit var binding: ActivityMain5Binding
+    private lateinit var binding: ActivityMain5Binding //For Main binding Page Number 5
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

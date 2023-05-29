@@ -6,7 +6,7 @@ import android.os.Bundle
 import com.tsu.lab1mobdevprojecthashfi.databinding.ActivityMain7Binding
 import com.tsu.lab1mobdevprojecthashfi.databinding.ActivityMain8Binding
 
-class MainActivity8 : AppCompatActivity() {
+class MainActivity8 : AppCompatActivity() { //For Main binding Page Number 8
     private lateinit var binding: ActivityMain8Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
