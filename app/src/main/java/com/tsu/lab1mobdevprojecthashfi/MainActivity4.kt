@@ -6,7 +6,7 @@ import android.os.Bundle
 import com.tsu.lab1mobdevprojecthashfi.databinding.ActivityMain4Binding
 
 class MainActivity4 : AppCompatActivity() {
-    private lateinit var binding: ActivityMain4Binding //For Main binding Page Number 4
+    lateinit var binding: ActivityMain4Binding //For Main binding Page Number 4
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
