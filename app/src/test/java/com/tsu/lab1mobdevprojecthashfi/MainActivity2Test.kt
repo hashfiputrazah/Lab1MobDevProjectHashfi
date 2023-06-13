@@ -11,7 +11,7 @@ import org.robolectric.annotation.Config
 @RunWith(RobolectricTestRunner::class)
 class MainActivity2Test {
     @Test
-    fun testBindingVariableInitialized() {
+    fun testBinding2VariableInitialized() {
         val activity2 = Robolectric.buildActivity(MainActivity2::class.java).create().get()
         assertNotNull(activity2.binding.root)
     }
