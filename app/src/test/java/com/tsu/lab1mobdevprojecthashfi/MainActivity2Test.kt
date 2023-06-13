@@ -12,7 +12,7 @@ import org.robolectric.annotation.Config
 class MainActivity2Test {
     @Test
     fun testBindingVariableInitialized() {
-        val activity2 = Robolectric.buildActivity(MainActivity::class.java).create().get()
+        val activity2 = Robolectric.buildActivity(MainActivity2::class.java).create().get()
         assertNotNull(activity2.binding.root)
     }
 
