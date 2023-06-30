@@ -1,6 +1,5 @@
 package com.tsu.lab1mobdevprojecthashfi
 
-import org.junit.Assert.*
 import org.junit.Test
 import com.google.common.truth.Truth.*
 

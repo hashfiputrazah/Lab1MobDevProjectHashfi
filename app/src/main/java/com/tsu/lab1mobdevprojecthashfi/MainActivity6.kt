@@ -3,7 +3,6 @@ package com.tsu.lab1mobdevprojecthashfi
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.tsu.lab1mobdevprojecthashfi.databinding.ActivityMain5Binding
 import com.tsu.lab1mobdevprojecthashfi.databinding.ActivityMain6Binding
 
 class MainActivity6 : AppCompatActivity() {
