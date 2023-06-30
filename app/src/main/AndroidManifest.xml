@@ -12,46 +12,46 @@
         android:theme="@style/Theme.Lab1MobdevProjectHashfi"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity14"
+            android:name=".RepeatGamePage"
             android:exported="false" />
         <activity
-            android:name=".MainActivity13"
+            android:name=".UglyCostume"
             android:exported="false" />
         <activity
-            android:name=".MainActivity12"
+            android:name=".BeautifulCostume"
             android:exported="false" />
         <activity
-            android:name=".MainActivity11"
+            android:name=".CreateCostume"
             android:exported="false" />
         <activity
-            android:name=".MainActivity10"
+            android:name=".NotLikeFilm"
             android:exported="false" />
         <activity
-            android:name=".MainActivity9"
+            android:name=".LikeFilm"
             android:exported="false" />
         <activity
-            android:name=".MainActivity8"
+            android:name=".CelebrateHalloween"
             android:exported="false" />
         <activity
-            android:name=".MainActivity7"
+            android:name=".WatchFilm"
             android:exported="false" />
         <activity
-            android:name=".MainActivity6"
+            android:name=".Hiking"
             android:exported="false" />
         <activity
-            android:name=".MainActivity5"
+            android:name=".Camping"
             android:exported="false" />
         <activity
-            android:name=".MainActivity4"
+            android:name=".Running"
             android:exported="false" />
         <activity
-            android:name=".MainActivity3"
+            android:name=".ChooseActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".InputName"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".HomePage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
